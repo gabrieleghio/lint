@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  },
+  "lint-staged": {
+    "frontend/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  }
+}
