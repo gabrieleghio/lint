@@ -5,10 +5,7 @@
   },
   "lint-staged": {
     "frontend/**/*.{js,jsx,ts,tsx}": [
-      "npx eslint --fix"
+      "eslint --fix"
     ]
-  },
-  "scripts": {
-    "prepare": "husky"
   }
 }
